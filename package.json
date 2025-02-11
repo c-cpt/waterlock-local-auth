@@ -16,22 +16,22 @@
     "authentication",
     "sails"
   ],
-  "devDependencies":{
-    "mocha": "*",
-    "should": "*",
-    "proxyquire": "*",
+  "devDependencies": {
     "coveralls": "*",
     "istanbul": "*",
-    "jshint": "*"
+    "jshint": "*",
+    "mocha": "*",
+    "proxyquire": "*",
+    "should": "*"
   },
-  "dependencies":{
-    "bcrypt": "~1.0.0",
-    "lodash": "~3.10.0",
-    "moment": "~2.10.6",
-    "nodemailer": "1.4.0",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
     "jade": "~1.11.0",
     "jwt-simple": "~0.3.0",
-    "node-uuid": "~1.4.2"
+    "lodash": "~3.10.0",
+    "moment": "~2.10.6",
+    "node-uuid": "~1.4.2",
+    "nodemailer": "1.4.0"
   },
   "author": "David Rivera <david.r.rivera193@gmail.com>",
   "contributors": [
